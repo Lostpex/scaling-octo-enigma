@@ -22,7 +22,7 @@
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1920px;
     margin: 0 auto;
     padding: 0 50px;
 }
@@ -116,7 +116,7 @@
         position: absolute;
         top: -1000px;
         opacity: 1;
-        transition: all 0.5s ease;
+        transition: all 0.5s ease-in-out;
         height: 50vh;
         z-index: -1;
     }
@@ -124,7 +124,7 @@
         background: #131313;
         top: 100%;
         opacity: 1;
-        transition: all 0.5s ease;
+        transition: all 0.5s ease-in-out;
         z-index: 99;
         height: 50vh;
         font-size: 1.6rem;
