@@ -10,6 +10,9 @@
 body {
   background-color: #131313;
   color: aliceblue;
+  display: flex;
+ flex-direction: column;
+ min-height: 100vh;
 }
 
 .navbar {
@@ -134,7 +137,7 @@ body {
 .welcome_auf_meiner_website_text {}
 
 .footer_global {
-  margin-top: 100%;
+    margin-top: auto;
 }
 
 footer {
