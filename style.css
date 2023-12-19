@@ -221,6 +221,7 @@ footer {
   vertical-align: baseline;
   margin-bottom: 4rem;
   margin: 0 10px 7%;
+  border-bottom:  5px solid rgb(63, 63, 63);
 }
 
 
@@ -240,12 +241,28 @@ footer {
   max-width: 560px;
 }
 @media screen and (max-width: 960px) {
+  .welcome_auf_meiner_website {
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    font-size: 32px;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    
+  }
+  .welcome_auf_meiner_website_text {
+    padding: 0;
+    color: #fefefe;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 50px 10px;
+  }
   .youtube_iframes {
     margin-left: 0;
     
   }
   .youtube_iframes iframe{
-    width: 90%;
+    width: 95%;
   }
   .navbar-container {
     display: flex;
