@@ -122,16 +122,20 @@ body {
 }
 
 .welcome_auf_meiner_website {
-  font-size: 32px;
+  text-align: center;
+  align-items: center;
+  font-size: 48px;
   width: 100%;
   padding: 25px 0px 15px 25px;
-  float: left;
+  margin-bottom: 4rem;
+  
 }
 
 .welcome_auf_meiner_website_text {
   color: #fefefe;
-  width: 70%;
+  font-size: 20px;
   padding: 25px 0px 15px 25px;
+  text-align: center;
 }
 
 
@@ -150,6 +154,7 @@ footer {
   position: relative;
   width: 100%;
   background: #3586ff;
+  background: #f67062;
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
@@ -206,8 +211,42 @@ footer {
   font-size: 1rem;
 }
 
+.youtube_iframe_wrapper{
+  align-items: center;
+  text-align: center;
+}
 
+.youtube_iframes {
+  display:inline-block;
+  vertical-align: baseline;
+  margin-bottom: 4rem;
+  margin: 0 10px 7%;
+}
+
+
+.youtube_iframes h2{
+  margin-bottom: 30px;
+}
+
+.youtube_iframes iframe{
+  width:560px;
+  height:315px;
+}
+
+.youtube_iframes p{
+  margin-top: 12px;
+  
+  font-weight: 300;
+  max-width: 560px;
+}
 @media screen and (max-width: 960px) {
+  .youtube_iframes {
+    margin-left: 0;
+    
+  }
+  .youtube_iframes iframe{
+    width: 90%;
+  }
   .navbar-container {
     display: flex;
     justify-content: space-between;
