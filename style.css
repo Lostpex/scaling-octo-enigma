@@ -11,8 +11,8 @@ body {
   background-color: #131313;
   color: aliceblue;
   display: flex;
- flex-direction: column;
- min-height: 100vh;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .navbar {
@@ -112,13 +112,41 @@ body {
   transition: all 0.3s ease;
 }
 
+.tabelle {
+  margin-right: 5%;
+  float: right;
+}
+
 .tabelle-elements td {
-  border: 15px;
+  border: 1px solid;
   border-color: #ffffff;
-  background-color: #4837ff;
   padding: 16px;
-  display: flexbox;
-  justify-content: first baseline;
+
+
+}
+
+.hagen_photo {
+  float: right;
+  margin: 0px 25px;
+}
+
+.about_me {
+  color: aliceblue;
+  padding-bottom: 14px;
+}
+
+.text_über_mich {
+  max-width: 70%;
+  margin-left: 9%;
+  margin-bottom: 32px;
+}
+
+.text_über_mich h2 {
+  padding-bottom: 15px;
+}
+
+.text_über_mich ul{
+  margin-left: 5%;
 }
 
 .welcome_auf_meiner_website {
@@ -128,7 +156,7 @@ body {
   width: 100%;
   padding: 25px 0px 15px 25px;
   margin-bottom: 4rem;
-  
+
 }
 
 .welcome_auf_meiner_website_text {
@@ -140,7 +168,7 @@ body {
 
 
 .footer_global {
-    margin-top: auto;
+  margin-top: auto;
 }
 
 footer {
@@ -211,35 +239,36 @@ footer {
   font-size: 1rem;
 }
 
-.youtube_iframe_wrapper{
+.youtube_iframe_wrapper {
   align-items: center;
   text-align: center;
 }
 
 .youtube_iframes {
-  display:inline-block;
+  display: inline-block;
   vertical-align: baseline;
   margin-bottom: 4rem;
   margin: 0 10px 7%;
-  border-bottom:  5px solid rgb(63, 63, 63);
+  border-bottom: 5px solid rgb(63, 63, 63);
 }
 
 
-.youtube_iframes h2{
+.youtube_iframes h2 {
   margin-bottom: 30px;
 }
 
-.youtube_iframes iframe{
-  width:560px;
-  height:315px;
+.youtube_iframes iframe {
+  width: 560px;
+  height: 315px;
 }
 
-.youtube_iframes p{
+.youtube_iframes p {
   margin-top: 12px;
-  
+
   font-weight: 300;
   max-width: 560px;
 }
+
 @media screen and (max-width: 960px) {
   .welcome_auf_meiner_website {
     padding: 0;
@@ -248,8 +277,9 @@ footer {
     font-size: 32px;
     margin-bottom: 4rem;
     margin-top: 1rem;
-    
+
   }
+
   .welcome_auf_meiner_website_text {
     padding: 0;
     color: #fefefe;
@@ -257,13 +287,16 @@ footer {
     text-align: center;
     padding: 10px 50px 10px;
   }
+
   .youtube_iframes {
     margin-left: 0;
-    
+
   }
-  .youtube_iframes iframe{
+
+  .youtube_iframes iframe {
     width: 95%;
   }
+
   .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -359,14 +392,15 @@ footer {
   }
 }
 
-.log-in-container{
+.log-in-container {
   padding: 0;
   margin: 0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background: #3586ff;
 
 }
-.box{
+
+.box {
   height: 350px;
   width: 400px;
   padding: 50px;
@@ -380,15 +414,16 @@ footer {
 
 }
 
-.box h1{
+.box h1 {
   color: aliceblue;
   text-transform: uppercase;
   font-weight: 500;
 
 }
 
-.box input[type = "text"],.box input[type = "password"]{
-  border:0;
+.box input[type="text"],
+.box input[type="password"] {
+  border: 0;
   background: none;
   display: block;
   margin: 20px auto;
@@ -402,13 +437,14 @@ footer {
   transition: 0.25s;
 }
 
-.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
   width: 280px;
   border-color: #f77062;
 }
 
-.box input[type = "submit"]{
-  border:0;
+.box input[type="submit"] {
+  border: 0;
   background: none;
   display: block;
   margin: 20px auto;
@@ -420,7 +456,8 @@ footer {
   border-radius: 24px;
   transition: 0.25s;
 }
-.box input[type = "submit"]:hover{
+
+.box input[type="submit"]:hover {
   background-color: #2ecc70;
   border: 2px solid #333;
   padding: 14px 40px;
